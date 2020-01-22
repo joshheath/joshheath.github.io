@@ -6,7 +6,7 @@ body{
 
 h1{
   width: 100%;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Muli', sans-serif;
   padding: 30px;
   font-size: 45px;
   text-align: center;
@@ -16,7 +16,7 @@ h1{
 .navbar{
   width: 100%;
   text-align: center;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Muli', sans-serif;
   padding: 30px;
   font-size: 23px;
 }
