@@ -1,11 +1,28 @@
+/* navbar */
+.navbar{
+  width: 100%;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  padding: 30px;
+  font-size: 27px;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 4vw;
+  width: 25%;
+  color: black;
+}
+
+
 body {
   text-align: center;
   background-color: IVORY;
-}
-font-face {
-  font-family: Arial;
+  margin: 0;
 }
 
+
 h1{
-  font-family: Arial;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
 }
