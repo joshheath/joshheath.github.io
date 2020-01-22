@@ -2,3 +2,10 @@ body {
   text-align: center;
   background-color: IVORY;
 }
+font-face {
+  font-family: Arial;
+}
+
+h1{
+  font-family: Arial;
+}
