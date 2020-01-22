@@ -1,10 +1,24 @@
+body {
+  text-align: center;
+  background-color: rgb(236,239,241);
+  margin: 0;
+}
+
+h1{
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  padding: 30px;
+  font-size: 45px;
+  text-align: center;
+}
+
 /* navbar */
 .navbar{
   width: 100%;
   text-align: center;
   font-family: 'Muli', sans-serif;
   padding: 30px;
-  font-size: 27px;
+  font-size: 23px;
 }
 
 .navbar a{
@@ -12,17 +26,4 @@
   padding: 4vw;
   width: 25%;
   color: black;
-}
-
-
-body {
-  text-align: center;
-  background-color: IVORY;
-  margin: 0;
-}
-
-
-h1{
-  font-family: 'Muli', sans-serif;
-  text-align: center;
 }
