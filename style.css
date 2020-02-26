@@ -14,7 +14,7 @@ h1{
 
 /* navbar */
 .navbar{
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   font-family: 'Muli', sans-serif;
   padding: 30px;
@@ -26,4 +26,19 @@ h1{
   padding: 4vw;
   width: 25%;
   color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.maintext {
+  font-family: 'Muli', sans-serif;
+  font-size: 23px;
+  padding: 45px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
