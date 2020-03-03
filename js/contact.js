@@ -1,8 +1,3 @@
-// function textBox(){
-//   var x = document.getElementById('myText').value;
-//   document.getElementById("demo").innerHTML = x;
-// };
-
 var fields = {
   document.addEventListener("DOMContentLoaded", function(){
     fields.lastname = document.getElementById('lastname');
