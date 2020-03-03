@@ -22,3 +22,40 @@ function isEmail(email){
 
   return regex.test(String(email).toLowerCase());
 }
+
+function fieldValidation(field, validationFunction){
+  if (field == null) return false;
+
+  let isFieldValid = validationFunction(field.value)
+  if (!isFieldValid) {
+    field.calssName = 'placeholderRed';
+  } else {
+    field.className = ' ';
+  }
+  return isFieldValid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
