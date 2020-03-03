@@ -1,16 +1,16 @@
-function textBox(){
-  var x = document.getElementById('myText').value;
-  document.getElementById("demo").innerHTML = x;
+// function textBox(){
+//   var x = document.getElementById('myText').value;
+//   document.getElementById("demo").innerHTML = x;
+// };
+
+var fields = {
+  document.addEventListener("DOMContentLoaded", function(){
+    fields.lastname = document.getElementById('lastname');
+    fields.firstname = document.getElementById('firstname');
+    fields.email = document.getElementById('email');
+    fields.question = document.getElementById('question');
+  })
 };
-
-var fields = {};
-
-document.addEventListener("DOMContentLoaded", function(){
-  fields.lastname = document.getElementById('lastname');
-  fields.firstname = document.getElementById('firstname');
-  fields.email = document.getElementById('email');
-  fields.question = document.getElementById('question');
-})
 
 function isNotEmpty(value){
   if(value == null || typeof value == 'undefined' ) return false;
@@ -35,7 +35,12 @@ function fieldValidation(field, validationFunction){
   return isFieldValid;
 }
 
+function isValid(){
+  var valid = true;
 
+  valid &= fieldValidation(fields.last)
+
+}
 
 
 
