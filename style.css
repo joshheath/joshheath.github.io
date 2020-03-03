@@ -42,3 +42,7 @@ h1{
   margin-left: 200px;
   margin-right: 200px;
 }
+
+.form {
+  font-family: 'Muli', sans-serif;
+}
