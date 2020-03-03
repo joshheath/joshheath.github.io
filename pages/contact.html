@@ -36,17 +36,27 @@
        <script src="js/contact.js"></script>
        <script src="jquery-3.4.0.min.js"></script>
 
-       <!-- <div class="textbox">
-           <input type="text" id="myText" value="Please type your question here">
-           <button onclick="textBox()">Submit</button>
-           <p id="demo"></p>
-       </div> -->
 
        <form onsubmit="return false">
+         <input type="text" placeholder="Enter last name" id="lastname"/>
+         <br>
+
+         <input type="text" placeholder="Enter first name" id="firstname"/>
+         <br>
+
+         <input type="email" placeholder="Enter email" id="email"/>
+         <br><br>
+
+         <span> What is your question or feedback? </span>
+         <br>
+
+         <textarea id="question" rows="4"></textarea>
+         <br>
+
+        <button onclick="sendContact();"> Submit </button>
        </form>
 
-       <input type="text" placeholder="Enter last name" id="lastname"/>
-       <br>
+
 
        <!-- <img src="pictures/IMG_1667.jpeg" alt="Canyonlands", style="width:1024px; height:350px"> -->
 
